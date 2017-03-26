@@ -40,6 +40,8 @@ s = l[1].replace(":", ",")
 dt1 = dt.datetime.strptime(l[0].replace("/", ","), '%m,%d,%Y')
 n = (('{0},{1},{2:}'.format(dt1.year, dt1.month, dt1.day % 100)))
 
+print (s, n)
+
 
 
 
